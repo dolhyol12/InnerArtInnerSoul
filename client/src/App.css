@@ -1,0 +1,58 @@
+@import '../node_modules/react-slideshow-image/lib/components/slideshow/general.css';
+@import '../node_modules//antd/dist/antd.min.css';
+
+.form-rounded {
+  border-radius: 1rem;
+}
+
+form {
+  display: inline-block;
+  position: relative;
+}
+
+form button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding-right: 20px;
+}
+ul li {
+  margin: 8px;
+}
+ul h4 {
+  font-size: 16px;
+
+  color: white;
+}
+.each-slide > div {
+  background-size: 100% 100%;
+}
+
+.react-slideshow-container + div.indicators {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.react-slideshow-container + div.indicators > div {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  background: #ccc;
+  cursor: pointer;
+  z-index: 11;
+}
+
